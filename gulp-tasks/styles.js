@@ -23,7 +23,7 @@ gulp.task("styles", () => {
     return gulp.src(paths.styles.src)
         .pipe(gulpif(!production, sourcemaps.init()))
         .pipe(plumber())
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError)) //added log
         .pipe(groupmedia())
         .pipe(gulpif(production, autoprefixer({
             cascade: false,
@@ -55,5 +55,6 @@ gulp.task("styles", () => {
         .pipe(debug({
             "title": "CSS files"
         }))
-        .on("end", browsersync.reload);
+      //  .on("end", browsersync.reload);
+        .pipe(browsersync.stream());
 });
