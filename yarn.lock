@@ -7658,6 +7658,7 @@ bem-tools-create@bem-tools/bem-tools-create:
     gulp-svg-sprite: ^1.5.0
     gulp-watch: ^5.0.1
     gulp-webp: ^4.0.1
+    hamburgers: ^1.2.1
     husky: ^7.0.4
     imagemin-giflossy: ^5.1.10
     imagemin-jpeg-recompress: ~7.0.0
@@ -7857,6 +7858,13 @@ bem-tools-create@bem-tools/bem-tools-create:
   dependencies:
     glogg: ^1.0.0
   checksum: 6732ae5440857e34b9ae910dc4389d6c16b3f0166277d03ac04a6c6239a138ce4f1c0e0534bdfed077e67d6c3fe3ea05bfd20f09ca0ed97ef138edbe0840afa7
+  languageName: node
+  linkType: hard
+
+"hamburgers@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "hamburgers@npm:1.2.1"
+  checksum: f43d9f4309933e84b3ffe1c85d0e9fd858170339c9001f2481646547bdfa223ab44c8c2532802b8585c77738ef0271737db7d016dc134f9dcddc8fc72426a9f0
   languageName: node
   linkType: hard
 
