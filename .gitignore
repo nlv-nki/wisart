@@ -15,3 +15,13 @@ _config.yml
 node_modules
 dist
 package-lock.json
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.yarn/releases/yarn-3.2.0.cjs
+yarn.lock
+.yarnrc.yml
