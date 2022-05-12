@@ -1,0 +1,21 @@
+.head-block {
+	&__title-content {
+		/* сверху | горизонтально | снизу */
+		margin: 40px 24px 20px;
+		text-transform: uppercase;
+		color: #1A1A1A;
+	}
+
+	&__epigraph {
+		@include Montserrat-Regular;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 3px;
+	}
+
+	&__title {
+		@include Montserrat-SemiBold;
+		font-size: 30px;
+		line-height: 37px;
+	}
+}
