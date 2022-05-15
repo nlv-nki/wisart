@@ -7625,6 +7625,20 @@ bem-tools-create@bem-tools/bem-tools-create:
   languageName: node
   linkType: hard
 
+"gulp-postcss@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "gulp-postcss@npm:9.0.1"
+  dependencies:
+    fancy-log: ^1.3.3
+    plugin-error: ^1.0.1
+    postcss-load-config: ^3.0.0
+    vinyl-sourcemaps-apply: ^0.2.1
+  peerDependencies:
+    postcss: ^8.0.0
+  checksum: f27a7ebdb71b2bcd59ac5fbbc15ab877b22585a9352884a81395ffb8fe6230dfc8106cdf93075e54685c7bf249a0bd1ad2f6fbeb452bdf81a01c3adcc3c6fff4
+  languageName: node
+  linkType: hard
+
 "gulp-pug-starter@workspace:.":
   version: 0.0.0-use.local
   resolution: "gulp-pug-starter@workspace:."
@@ -7650,6 +7664,7 @@ bem-tools-create@bem-tools/bem-tools-create:
     gulp-imagemin: ^7.1.0
     gulp-newer: ^1.4.0
     gulp-plumber: ^1.2.1
+    gulp-postcss: ^9.0.1
     gulp-pug: ^4.0.1
     gulp-rename: ^2.0.0
     gulp-replace: ^1.1.3
@@ -7667,7 +7682,7 @@ bem-tools-create@bem-tools/bem-tools-create:
     imagemin-webp: ^6.0.0
     imagemin-zopfli: ^7.0.0
     lint-staged: ^12.3.5
-    postcss: ^8.4.8
+    postcss: ^8.4.13
     postcss-scss: ^4.0.3
     require-dir: ^1.2.0
     sass: ^1.49.9
@@ -9733,6 +9748,13 @@ bem-tools-create@bem-tools/bem-tools-create:
   version: 2.0.4
   resolution: "lilconfig@npm:2.0.4"
   checksum: 02ae530aa49218d782eb79e92c600ea5220828987f85aa3403fa512cadc7efe38c0ac7d0cd2edf600ad3fae1f6c1752f5b4bb78c0d9950435b044d53d507c9e1
+  languageName: node
+  linkType: hard
+
+"lilconfig@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "lilconfig@npm:2.0.5"
+  checksum: f7bb9e42656f06930ad04e583026f087508ae408d3526b8b54895e934eb2a966b7aafae569656f2c79a29fe6d779b3ec44ba577e80814734c8655d6f71cdf2d1
   languageName: node
   linkType: hard
 
@@ -11974,6 +11996,24 @@ bem-tools-create@bem-tools/bem-tools-create:
   languageName: node
   linkType: hard
 
+"postcss-load-config@npm:^3.0.0":
+  version: 3.1.4
+  resolution: "postcss-load-config@npm:3.1.4"
+  dependencies:
+    lilconfig: ^2.0.5
+    yaml: ^1.10.2
+  peerDependencies:
+    postcss: ">=8.0.9"
+    ts-node: ">=9.0.0"
+  peerDependenciesMeta:
+    postcss:
+      optional: true
+    ts-node:
+      optional: true
+  checksum: 1c589504c2d90b1568aecae8238ab993c17dba2c44f848a8f13619ba556d26a1c09644d5e6361b5784e721e94af37b604992f9f3dc0483e687a0cc1cc5029a34
+  languageName: node
+  linkType: hard
+
 "postcss-media-query-parser@npm:^0.2.3":
   version: 0.2.3
   resolution: "postcss-media-query-parser@npm:0.2.3"
@@ -12042,7 +12082,7 @@ bem-tools-create@bem-tools/bem-tools-create:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.0, postcss@npm:^8.3.11, postcss@npm:^8.3.6, postcss@npm:^8.4.13, postcss@npm:^8.4.8":
+"postcss@npm:^8.3.0, postcss@npm:^8.3.11, postcss@npm:^8.3.6, postcss@npm:^8.4.13":
   version: 8.4.13
   resolution: "postcss@npm:8.4.13"
   dependencies:
