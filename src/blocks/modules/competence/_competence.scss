@@ -1,0 +1,38 @@
+.competence {
+	background: #F6F6F6;
+	padding: 40px 20px;
+
+
+	&__title {
+		@include Montserrat-Regular;
+		font-size: 30px;
+		line-height: 37px;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+
+	}
+
+	&__case {
+		border-bottom: 0.5px solid #000;
+		margin-bottom: 35px;
+		padding-bottom: 35px;
+	}
+
+	&__case-title {
+		@include Montserrat-Bold;
+		font-size: 16px;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+
+	&__case-description {
+		@include Montserrat-Light;
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	&__case-image {
+		margin: 20px auto;
+	}
+
+}
