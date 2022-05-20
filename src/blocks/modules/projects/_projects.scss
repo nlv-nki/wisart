@@ -1,0 +1,9 @@
+.projects {
+	padding: 40px 0 0;
+	&__title {
+		@include Montserrat-Regular;
+		font-size: 27px;
+		line-height: 33px;
+		text-align: center;
+	}
+}

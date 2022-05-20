@@ -1,0 +1,42 @@
+.project {
+	&__case {
+		display:flex;
+		flex-direction:column;
+		border-top: 4px solid #7D3344;
+		margin-top: 45px;
+		padding:40px 0 0;
+	}
+
+	&__case-info {
+		padding: 0 20px;
+	}
+	&__case-description {
+		@include Montserrat-Regular;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 5px;
+	}
+
+	&__case-title {
+		@include Montserrat-SemiBold;
+		font-size: 36px;
+		line-height: 44px;
+		color: #52242B;
+		margin-bottom: 20px;
+	}
+
+	&__case-background,
+	&__case-creative,
+	&__case-results {
+		@include Montserrat-Regular;
+		font-size: 16px;
+		line-height: 20px;
+		color: #000000;
+		padding: 0 20px;
+		margin-bottom: 20px;
+	}
+
+	&__case-images {
+		margin: 20px 0;
+	}
+}
